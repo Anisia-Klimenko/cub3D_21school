@@ -1,0 +1,17 @@
+.git
+.DS_Store
+*.dSYM/
+a.out
+test*
+*.o
+*.a
+valgrind-out.txt
+tmp/
+test/
+main.sh
+cub3d
+cub3d_bonus
+*\ copy/
+*\ copy.*
+obj/
+obj_bonus/
