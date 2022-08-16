@@ -17,7 +17,7 @@ int	mouse_move(int x, int y, t_game *game)
 	if (y > 0 && y < (int)game->img_resolution_y)
 	{
 		if (x > (int)game->img_resolution_x * 3 / 5
-			&& x < (int)game->img_resolution_x * 2)
+			&& x < (int)game->img_resolution_x)
 			game->p_angle += 0.01;
 		else if (x < (int)game->img_resolution_x * 2 / 5 && x > 0)
 			game->p_angle -= 0.01;
